@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-Br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nacionalidade</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Escolha o Seu País</h1>
-    
-    <input type="text" name="país" id="país">
-    <input type="button" value="Verificar" onclick="Nacionalidade()">
-    <div id="res">
 
-    </div>
+    <input type="text" name="país" id="país" />
+    <input type="button" value="Verificar" onclick="verificarNacionalidade()" />
+    <div id="res"></div>
+
     <script>
-        function Nacionalidade() {
-            var países = document.querySelector('input#país')
-            var res = document.querySelector('div#res')
-            var vel = (países.value)
-            if (países = 'Brasil') {
-                res.innerHTML = `Você é Brasileiro`
+        function verificarNacionalidade() {
+            var regiao = document.getElementById('país')
+            var res = document.getElementById('res')
+            var vel = (regiao.value)
+            res.innerHTML = `Você esta no <strong>${vel}</strong>!`
+            if (vel == 'Brasil') {
+                res.innerHTML += `<p><strong>BRASILEIRO</strong></p>` 
+            } else {
+                res.innerHTML += `<p><strong>ESTRANGEIRO</strong></p>`
             }
-            
-        }    
-    </script>
-</body>
+        }
+    </script> 
+  </body>
 </html>
