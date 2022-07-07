@@ -5,10 +5,9 @@
 }
 
 body {
-    background-color: darkgray;
+    background-color: #a9a9a9;
     font: normal 2em monospace;
     background-attachment: fixed;
-    background-image: linear-gradient(72deg, #0000, #0050, #000100);
 }
 
 header {
@@ -23,10 +22,8 @@ header {
     top: 40%;
     width: 350px;
     gap: 30px;
-    margin: auto;
     background-image: linear-gradient(172deg, #0000, #0050, #1f221f);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.445);
-    margin: auto;
     border-radius: 100px;
 }
 
@@ -38,10 +35,8 @@ header {
     top: 40%;
     width: 350px;
     gap: 30px;
-    margin: auto;
     background-image: linear-gradient(172deg, #0000, #0050, #000100);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.445);
-    margin: auto;
     border-radius: 100px;
 }
 
@@ -55,11 +50,6 @@ img {
     border-radius: 100%;
     width: 150px;
     height: 150px;
-
 }
 
-
-footer {
-  
-}
 
