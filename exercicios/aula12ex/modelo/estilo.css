@@ -5,6 +5,7 @@
 }
 
 body {
+    overflow: scroll;
     background-color: darkgray;
     font: normal 2em monospace;
 }
