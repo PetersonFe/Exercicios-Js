@@ -1,28 +1,33 @@
-* {
+* 
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+body 
+{
     background-color: #f3f3f3;
-    font: normal 2em monospace;
 }
 
-header {
+header 
+{
     margin-bottom: 50px;
+    text-align: center;
 }
 
-.box {
+.box 
+{
     width: 500px;
     height: 500px;
     background: #e2e2e2;
-    box-shadow: 2px 2px 10px #00000071;
+    box-shadow: 4px 8px 10px #00000071;
     margin: auto;
     border-radius: 10px;
 }
 
-.box-btn {
+.box-search 
+{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -31,15 +36,10 @@ header {
     margin: 0px 160px;
 }
 
-p {
-    font-family: 'Times New Roman', Times, serif;
+p
+{
+    font-family: cursive;
     font-size: small;
     text-transform: uppercase;
     color: #000;
-}
-
-
-footer {
-    margin-top: 20px;
-    text-align: center;
 }
